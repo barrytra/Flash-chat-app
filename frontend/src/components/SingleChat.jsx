@@ -20,7 +20,7 @@ import { BsEmojiSmile } from "react-icons/bs";
 import { AiOutlinePlus } from "react-icons/ai";
 import data from "@emoji-mart/data";
 import Picker from "@emoji-mart/react";
-const ENDPOINT = "http://localhost:4000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://flash-chat-app-backend.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
